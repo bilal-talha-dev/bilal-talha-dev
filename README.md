@@ -55,5 +55,5 @@ DevOps Engineer and Full Stack Developer with over 2 years of experience archite
 
 ### GitHub Statistics
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=bilal493&show_icons=false&theme=transparent&hide_border=true" alt="bilal493 GitHub Stats" />
+  <img src="https://streak-stats.demolab.com?user=bilal-talha-dev&theme=transparent&hide_border=true&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak" />
 </div>
