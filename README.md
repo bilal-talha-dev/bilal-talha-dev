@@ -1,16 +1,59 @@
-## Hi there 👋
+# Muhammad Bilal Talha
+**DevOps Engineer | Full Stack Developer**
 
-<!--
-**bilal-talha-dev/bilal-talha-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Mustafa Town, Lahore | [LinkedIn](https://linkedin.com/in/muhammad-bilal-talha-225543246) | bilalsaeed000095@gmail.com
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Professional Summary
+DevOps Engineer and Full Stack Developer with over 2 years of experience architecting MERN and Django applications and running AWS and on-premise infrastructure. Specialized in CI/CD automation, cloud-to-on-prem migrations, and AI pipeline integrations. Proven track record of eliminating manual deployment processes and optimizing workflows using Terraform, Docker, Kubernetes, and Cloudflare. Currently a Full Stack & DevOps Engineer at Salestech.
+
+---
+
+### Engineering Experience
+
+**Salestech** | Full Stack & DevOps Engineer
+* Architecting production web applications, microservices, and self-hosted infrastructure.
+* Developing Maika.digital (AI-powered dental billing assistant) and SentinelGate (autonomous release gatekeeper).
+
+**xis.ai** | Software Engineer (Full Stack & DevOps)
+* Owned CI/CD pipelines and deployed containerized applications end-to-end onto customer production devices via Kubernetes (kubectl).
+* Eliminated 35 hours per week of manual work by integrating AI pipelines into core workflows.
+* Accelerated data-labeling processes by 3x through the development of an internal annotation tool utilizing GPU-accelerated SAM (Segment Anything Model).
+* Integrated MQTT across applications for real-time, event-driven service communication.
+
+**SecureQuanta** | Software Engineer (Full Stack & DevOps)
+* Successfully migrated the entire environment from AWS and DigitalOcean to on-premise, handling all development and production workloads.
+* Secured on-premise applications using Cloudflare and Cloudflare Tunnels to publish services without opening inbound ports.
+* Replaced manual deployments with automated GitHub Actions and Jenkins CI/CD pipelines.
+* Provisioned AWS (EC2, ECS, Lambda, ALB, RDS) and DigitalOcean environments as code using Terraform.
+
+---
+
+### Technical Expertise
+
+| Category | Technologies |
+| :--- | :--- |
+| **DevOps & Cloud** | AWS, Terraform, Kubernetes, Docker, GitHub Actions, Jenkins, Cloudflare, Azure, GCP, Linux, Bash |
+| **Backend & APIs** | Node.js, Express.js, Python, Django, FastAPI, REST APIs, MQTT, Event-Driven Architecture |
+| **Frontend** | React, Next.js, TypeScript, JavaScript, Tailwind CSS, Redux, HTML, CSS |
+| **Databases** | PostgreSQL, MongoDB, MySQL, Redis, pgvector |
+| **AI & Tooling** | AI Workflow Automation, SAM (Segment Anything Model), GPU Acceleration, Git, Postman |
+
+---
+
+### Featured Repositories & Projects
+
+* **grepguru-bot**: Automated system utilities and workflows.
+* **smart-entry-system**: 3-tier architecture facial recognition attendance system utilizing Next.js, Flask, and Docker.
+* **cvat**: Contributions and setups related to Computer Vision Annotation Tooling.
+* **portfolio**: Interactive 3D Minecraft-themed portfolio utilizing React and Three.js.
+* **Marine-Inventory-Systems**: Full-stack inventory management architecture.
+* **Online Compiler**: Sandboxed code execution environment for Python and C++ built with Node.js and Docker.
+
+---
+
+### GitHub Statistics
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=bilal493&show_icons=false&theme=transparent&hide_border=true" alt="bilal493 GitHub Stats" />
+</div>
