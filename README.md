@@ -3,13 +3,13 @@
 # Muhammad Bilal Talha
 **DevOps Engineer | Full Stack Developer**
 
-Mustafa Town, Lahore · [LinkedIn](https://linkedin.com/in/muhammad-bilal-talha-225543246) · [Instagram](https://instagram.com/bilal.talha__) · bilalsaeed000095@gmail.com
+Mustafa Town, Lahore · [Portfolio](https://bilal-talha.vercel.app/) · [LinkedIn](https://linkedin.com/in/muhammad-bilal-talha-225543246) · [Instagram](https://instagram.com/bilal.talha__) · bilalsaeed000095@gmail.com
 
 <br>
 
 *I engineer systems that eliminate manual bottlenecks and refuse to break under load.*
 
-*From ripping entire cloud environments out of AWS and anchoring them on bare-metal on-prem clusters behind zero-trust tunnels, to building GPU-accelerated vision pipelines and hybrid RAG engines that erase thousands of hours of repetitive human labor.*
+*From ripping entire cloud environments out of AWS and anchoring them on bare-metal on-prem clusters behind zero-trust tunnels, to shipping edge-AI vision pipelines on NVIDIA and Hailo hardware that erase thousands of hours of repetitive human labor.*
 
 *Every deployment is automated. Every release gate is deterministic. No open ports, no manual intervention, no wasted cycles.*
 
@@ -19,51 +19,64 @@ Mustafa Town, Lahore · [LinkedIn](https://linkedin.com/in/muhammad-bilal-talha-
 
 ---
 
-### Professional Summary
-DevOps Engineer and Full Stack Developer with over 2 years of experience architecting MERN and Django applications and running AWS and on-premise infrastructure. Specialized in CI/CD automation, cloud-to-on-prem migrations, and AI pipeline integrations. Proven track record of eliminating manual deployment processes and optimizing workflows using Terraform, Docker, Kubernetes, and Cloudflare. Currently a Full Stack & DevOps Engineer at Salestech.
+### Impact at a Glance
+
+- **35+ hrs/week** of manual AI team workload eliminated via automated full-stack AI pipelines
+- **3x faster** data labeling achieved with an internal GPU-accelerated SAM annotation tool
+- **100% cloud-to-on-prem** environment migration (3 production apps + Dev/UAT/Prod workloads) with zero open inbound ports
+- **35% reduction** in manual client response time via a custom customer portal and Lark Suite workflow automation
+- **17+ production & personal systems** shipped across Full Stack, Edge AI, and DevOps infrastructure
 
 ---
 
 ### Engineering Experience
 
 **Salestech** | Full Stack & DevOps Engineer
-- Architecting production web applications, microservices, and self-hosted infrastructure.
-- Developing Maika.digital (AI-powered dental billing assistant) and SentinelGate (autonomous release gatekeeper).
+- Architecting production web applications, microservices, and self-hosted Linux/cloud infrastructure.
+- Developing **Maika.digital** (hybrid vector + BM25 dental billing engine) and **SentinelGate** (autonomous static/runtime CI/CD release gatekeeper).
 
 **xis.ai** | Software Engineer (Full Stack & DevOps)
-- Owned CI/CD pipelines and deployed containerized applications end-to-end onto customer production devices via Kubernetes (kubectl).
-- Eliminated 35 hours per week of manual work by integrating AI pipelines into core workflows.
-- Accelerated data-labeling processes by 3x through the development of an internal annotation tool utilizing GPU-accelerated SAM (Segment Anything Model).
-- Integrated MQTT across applications for real-time, event-driven service communication.
+- Shipped 5 production systems, including 3 factory inspection applications for **Rexroth Ctrl-X** (live camera inspection, restricted-area alerts, and radar image checks) from UI to backend.
+- Deployed containerized edge-AI workloads onto **NVIDIA** and **Hailo** production devices via Kubernetes (`kubectl`) and automated CI/CD pipelines.
+- Built a company-wide GPU-accelerated annotation platform using **SAM (Segment Anything Model)**, **PyTorch**, and **PyCUDA**, accelerating labeling throughput by 3x.
+- Integrated **MQTT** across services for real-time, event-driven telemetry and engineered a shared licensing system across 3 production applications.
 
 **SecureQuanta** | Software Engineer (Full Stack & DevOps)
-- Successfully migrated the entire environment from AWS and DigitalOcean to on-premise, handling all development and production workloads.
-- Secured on-premise applications using Cloudflare and Cloudflare Tunnels to publish services without opening inbound ports.
-- Replaced manual deployments with automated GitHub Actions and Jenkins CI/CD pipelines.
-- Provisioned AWS (EC2, ECS, Lambda, ALB, RDS) and DigitalOcean environments as code using Terraform.
+- Migrated the entire infrastructure from AWS (`ECS`, `ECR`, `ALB`, `ACM`, `RDS`, `S3`, `VPC`) and DigitalOcean onto on-premise Ubuntu servers.
+- Published 4 on-premise web applications securely using **Cloudflare Tunnels** and Zero Trust access policies without exposing a single inbound port.
+- Built 3 core web platforms — a customer portal and ticketing system with **Lark Suite** automation, the corporate web platform, and **SQ Secure** (email and identity breach scanner).
+- Replaced manual releases across Dev, UAT, and Production with automated GitHub Actions and Jenkins CI/CD pipelines and Terraform IaC.
 
 ---
 
 ### Technical Expertise
 
-| Category | Technologies |
+| Domain | Stack & Tooling |
 | :--- | :--- |
-| **DevOps & Cloud** | AWS, Terraform, Kubernetes, Docker, GitHub Actions, Jenkins, Cloudflare, Azure, GCP, Linux, Bash |
-| **Backend & APIs** | Node.js, Express.js, Python, Django, FastAPI, REST APIs, MQTT, Event-Driven Architecture |
-| **Frontend** | React, Next.js, TypeScript, JavaScript, Tailwind CSS, Redux, HTML, CSS |
-| **Databases** | PostgreSQL, MongoDB, MySQL, Redis, pgvector |
-| **AI & Tooling** | AI Workflow Automation, SAM (Segment Anything Model), GPU Acceleration, Git, Postman |
+| **Cloud & Infrastructure** | AWS (EC2, ECS, ECR, Lambda, VPC, ALB, RDS, S3, IAM, Route 53), Terraform, Kubernetes (`kubectl`), Docker, DigitalOcean, GCP, Azure, Linux, Bash |
+| **CI/CD & Zero-Trust Security** | GitHub Actions, Jenkins, Cloudflare Tunnels, Zero Trust Access, DNS, SSL/TLS, Load Balancing, Network Policies |
+| **Backend & Messaging** | Python, Django, FastAPI, Flask, Node.js, Express.js, REST APIs, MQTT, Event-Driven Architecture, Microservices |
+| **Frontend** | React, Next.js, TypeScript, JavaScript, Tailwind CSS, Redux, Three.js |
+| **AI & Edge Inference** | SAM (Segment Anything Model), PyTorch, TorchVision, ONNX, TensorRT, PyCUDA, NVIDIA & Hailo Edge Deployment, RAG Pipelines |
+| **Databases & Testing** | PostgreSQL, `pgvector`, MongoDB, MySQL, Redis, Jest, pytest |
 
 ---
 
-### Featured Repositories & Projects
+### Featured Repositories & Interactive Portfolios
 
-- **[grepguru-bot](https://github.com/bilal-talha-dev/grepguru-bot)**: Automated system utilities and workflows.
-- **[smart-entry-system](https://github.com/bilal-talha-dev/smart-entry-system)**: 3-tier architecture facial recognition attendance system utilizing Next.js, Flask, and Docker.
-- **[cvat](https://github.com/bilal-talha-dev/cvat)**: Contributions and setups related to Computer Vision Annotation Tooling.
-- **[portfolio](https://github.com/bilal-talha-dev/portfolio)**: Interactive 3D Minecraft-themed portfolio utilizing React and Three.js.
-- **Marine-Inventory-Systems**: Full-stack inventory management architecture.
-- **Online Compiler**: Sandboxed code execution environment for Python and C++ built with Node.js and Docker.
+- **[Resume-rag-bot](https://github.com/bilal-talha-dev/Resume-rag-bot)**: Scalable RAG engine for unlimited candidate resumes using Django, PostgreSQL (`pgvector`), Gemini API with deterministic local fallback, and automated PDF evaluation reports.
+- **[grepguru-bot](https://github.com/bilal-talha-dev/grepguru-bot)**: Automated CLI and system workflow utilities.
+- **[smart-entry-system](https://github.com/bilal-talha-dev/smart-entry-system)**: 3-tier facial recognition attendance platform built with Next.js, Flask, and Docker.
+- **[cvat](https://github.com/bilal-talha-dev/cvat)**: Computer Vision Annotation Tooling workflows and setups.
+- **[portfolio](https://github.com/bilal-talha-dev/portfolio)**: Main developer portfolio ([bilal-talha.vercel.app](https://bilal-talha.vercel.app/)) alongside interactive **3D Minecraft** and **Windows XP** themed portfolio editions.
+- **Online Compiler & Marine Inventory Systems**: Sandboxed Python/C++ execution engine in Docker and full-stack MERN inventory architecture.
+
+---
+
+### Education & Certifications
+
+- **BS Software Engineering** — University of the Punjab (CGPA: 3.77 / 4.00)
+- **Certifications:** Fortinet Fundamentals in Cybersecurity · MERN Stack Development · Python
 
 ---
 
