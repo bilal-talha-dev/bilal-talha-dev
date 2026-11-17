@@ -1,0 +1,73 @@
+name: Reusable 4-Quadrant Repo Pulse
+
+on:
+  workflow_call:
+    inputs:
+      probability:
+        description: 'Daily execution chance percentage'
+        required: false
+        type: number
+        default: 45
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Check random probability
+        id: roll
+        run: |
+          RAND=$((1 + $RANDOM % 100))
+          echo "Rolled: $RAND vs Threshold: ${{ inputs.probability }}"
+          if [ "$RAND" -le "${{ inputs.probability }}" ]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          else
+            echo "should_run=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Checkout repository
+        if: steps.roll.outputs.should_run == 'true'
+        uses: actions/checkout@v4
+
+      - name: Execute 4-Quadrant Activity (Issue, Commit, PR, Review)
+        if: steps.roll.outputs.should_run == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE_STR=$(date -u '+%Y-%m-%d')
+          TIME_STR=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
+          DEFAULT_BRANCH=$(git remote show origin | awk '/HEAD branch/ {print $NF}')
+          BRANCH_NAME="chore/pulse-$(date -u '+%Y%m%d%H%M%S')"
+
+          git config --local user.email "bilalsaeed000095@gmail.com"
+          git config --local user.name "bilal-talha-dev"
+
+          # 1. ISSUE QUADRANT: Create a maintenance issue
+          ISSUE_URL=$(gh issue create \
+            --title "chore: routine health check ($DATE_STR)" \
+            --body "Automated repository health and heartbeat verification for $TIME_STR.")
+          ISSUE_NUM=$(echo "$ISSUE_URL" | awk -F'/' '{print $NF}')
+
+          # 2. COMMIT QUADRANT: Create branch and commit heartbeat
+          git checkout -b "$BRANCH_NAME"
+          echo "Last heartbeat: $TIME_STR (Ref #$ISSUE_NUM)" > .heartbeat
+          git add .heartbeat
+          git commit -m "chore: update heartbeat ($DATE_STR) (#$ISSUE_NUM)"
+          git push -u origin "$BRANCH_NAME"
+
+          # 3. PULL REQUEST QUADRANT: Open a PR linked to the issue
+          PR_URL=$(gh pr create \
+            --base "$DEFAULT_BRANCH" \
+            --head "$BRANCH_NAME" \
+            --title "chore: automated heartbeat sync ($DATE_STR)" \
+            --body "Closes #$ISSUE_NUM — Automated pulse update at $TIME_STR.")
+          PR_NUM=$(echo "$PR_URL" | awk -F'/' '{print $NF}')
+
+          # 4. CODE REVIEW QUADRANT: Submit a review on the PR
+          gh pr review "$PR_NUM" --comment --body "Verified automated heartbeat diff and branch state."
+
+          # Merge PR (automatically closes the linked Issue) and delete temp branch
+          gh pr merge "$PR_NUM" --squash --delete-branch
