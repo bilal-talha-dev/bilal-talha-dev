@@ -1,9 +1,9 @@
-<div align="center">
+&lt;div align=&quot;center&quot;&gt;
 
 # Muhammad Bilal Talha
 **DevOps Engineer | Full Stack Developer**
 
-Mustafa Town, Lahore · [Portfolio](https://bilal-talha.vercel.app/) · [LinkedIn](https://linkedin.com/in/muhammad-bilal-talha-225543246) · [Instagram](https://instagram.com/bilal.talha__) · bilalsaeed000095@gmail.com
+Mustafa Town, Lahore · [Portfolio](https://bilal-talha.vercel.app/) · [Projects](https://bilal-talha.vercel.app/work) · [LinkedIn](https://linkedin.com/in/muhammad-bilal-talha-225543246) · [Instagram](https://www.google.com/search?q=https://instagram.com/bilal.talha__) · bilalsaeed000095@gmail.com
 
 <br>
 
@@ -15,7 +15,7 @@ Mustafa Town, Lahore · [Portfolio](https://bilal-talha.vercel.app/) · [LinkedI
 
 *Ship resilient code, own your infrastructure from the kernel up, and let the machines do the heavy lifting.*
 
-</div>
+&lt;/div&gt;
 
 ---
 
@@ -71,6 +71,8 @@ Mustafa Town, Lahore · [Portfolio](https://bilal-talha.vercel.app/) · [LinkedI
 - **[portfolio](https://github.com/bilal-talha-dev/portfolio)**: Main developer portfolio ([bilal-talha.vercel.app](https://bilal-talha.vercel.app/)) alongside interactive **3D Minecraft** and **Windows XP** themed portfolio editions.
 - **Online Compiler & Marine Inventory Systems**: Sandboxed Python/C++ execution engine in Docker and full-stack MERN inventory architecture.
 
+> *Due to NDA commitments, proprietary implementation details are omitted here. For high-level architecture walkthroughs and more details on all 17 systems, visit **[bilal-talha.vercel.app/work](https://bilal-talha.vercel.app/work)**.*
+
 ---
 
 ### Education & Certifications
@@ -81,87 +83,216 @@ Mustafa Town, Lahore · [Portfolio](https://bilal-talha.vercel.app/) · [LinkedI
 ---
 
 ### GitHub Statistics
-<div align="left">
-  <img src="https://streak-stats.demolab.com?user=bilal-talha-dev&theme=transparent&hide_border=true&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak" />
-  <br><br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bilal-talha-dev&bg_color=00000000&color=94A3B8&line=38BDF8&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph" />
-</div>
+
+&lt;div align=&quot;left&quot;&gt;
+  &lt;img src=&quot;https://streak-stats.demolab.com?user=bilal-talha-dev&amp;theme=transparent&amp;hide_border=true&amp;ring=38BDF8&amp;fire=38BDF8&amp;currStreakLabel=38BDF8&quot; alt=&quot;GitHub Streak&quot; /&gt;
+  &lt;br&gt;&lt;br&gt;
+  &lt;img src=&quot;https://github-readme-activity-graph.vercel.app/graph?username=bilal-talha-dev&amp;bg_color=00000000&amp;color=94A3B8&amp;line=38BDF8&amp;point=FFFFFF&amp;area=true&amp;hide_border=true&quot; alt=&quot;Contribution Graph&quot; /&gt;
+&lt;/div&gt;
 
 ---
 
 ### Architecture Diagrams
 
-<details>
-<summary><b>Click to expand Production Architecture Diagrams (13 Blueprints)</b></summary>
+> *All diagrams below represent high-level, NDA-safe architectural flows. For interactive layer filtering and more details, visit **[bilal-talha.vercel.app/work](https://bilal-talha.vercel.app/work)**.*
+
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;Click to expand Production Architecture Blueprints (13 Diagrams)&lt;/b&gt;&lt;/summary&gt;
 <br>
 
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <b>01. AWS to On-Prem Zero-Trust Migration</b><br><br>
-      <img src="./assets/diagrams/01-aws-to-onprem.png" alt="Diagram 01" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <b>02. Cloudflare Tunnel & Zero-Trust Network</b><br><br>
-      <img src="./assets/diagrams/02-cloudflare-zerotrust.png" alt="Diagram 02" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <b>03. Hybrid Vector + BM25 RAG Engine</b><br><br>
-      <img src="./assets/diagrams/03-hybrid-rag.png" alt="Diagram 03" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <b>04. NVIDIA & Hailo Edge-AI Telemetry</b><br><br>
-      <img src="./assets/diagrams/04-edge-ai-mqtt.png" alt="Diagram 04" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <b>05. SentinelGate CI/CD Release Gatekeeper</b><br><br>
-      <img src="./assets/diagrams/05-sentinel-gate.png" alt="Diagram 05" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <b>06. Transactional Outbox & Event Bus</b><br><br>
-      <img src="./assets/diagrams/06-transactional-outbox.png" alt="Diagram 06" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <b>07. GPU-Accelerated SAM Annotation Pipeline</b><br><br>
-      <img src="./assets/diagrams/07-sam-annotation.png" alt="Diagram 07" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <b>08. Multi-Tenant K8s Cluster & Ingress</b><br><br>
-      <img src="./assets/diagrams/08-k8s-cluster.png" alt="Diagram 08" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <b>09. Distributed Licensing & Auth Engine</b><br><br>
-      <img src="./assets/diagrams/09-licensing-system.png" alt="Diagram 09" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <b>10. Sandboxed Docker Code Execution</b><br><br>
-      <img src="./assets/diagrams/10-sandboxed-compiler.png" alt="Diagram 10" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <b>11. 3-Tier Facial Recognition Pipeline</b><br><br>
-      <img src="./assets/diagrams/11-facial-recognition.png" alt="Diagram 11" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <b>12. Terraform IaC Multi-Env Provisioning</b><br><br>
-      <img src="./assets/diagrams/12-terraform-iac.png" alt="Diagram 12" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <b>13. End-to-End Automated DevSecOps & Observability Mesh</b><br><br>
-      <img src="./assets/diagrams/13-devsecops-mesh.png" alt="Diagram 13" width="60%" />
-    </td>
-  </tr>
-</table>
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td width=&quot;50%&quot; align=&quot;center&quot;&gt;
+      &lt;b&gt;01. AWS to On-Prem Zero-Trust Migration&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+      &lt;img src=&quot;./assets/diagrams/01-aws-to-onprem.png&quot; alt=&quot;Diagram 01&quot; width=&quot;100%&quot; /&gt;
+    &lt;/td&gt;
+    &lt;td width=&quot;50%&quot; align=&quot;center&quot;&gt;
+      &lt;b&gt;02. Cloudflare Tunnel &amp; Zero-Trust Network&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+      &lt;img src=&quot;./assets/diagrams/02-cloudflare-zerotrust.png&quot; alt=&quot;Diagram 02&quot; width=&quot;100%&quot; /&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=&quot;50%&quot; align=&quot;center&quot;&gt;
+      &lt;b&gt;03. Hybrid Vector + BM25 RAG Engine&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+      &lt;img src=&quot;./assets/diagrams/03-hybrid-rag.png&quot; alt=&quot;Diagram 03&quot; width=&quot;100%&quot; /&gt;
+    &lt;/td&gt;
+    &lt;td width=&quot;50%&quot; align=&quot;center&quot;&gt;
+      &lt;b&gt;04. NVIDIA &amp; Hailo Edge-AI Telemetry&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+      &lt;img src=&quot;./assets/diagrams/04-edge-ai-mqtt.png&quot; alt=&quot;Diagram 04&quot; width=&quot;100%&quot; /&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=&quot;50%&quot; align=&quot;center&quot;&gt;
+      &lt;b&gt;05. SentinelGate CI/CD Release Gatekeeper&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+      &lt;img src=&quot;./assets/diagrams/05-sentinel-gate.png&quot; alt=&quot;Diagram 05&quot; width=&quot;100%&quot; /&gt;
+    &lt;/td&gt;
+    &lt;td width=&quot;50%&quot; align=&quot;center&quot;&gt;
+      &lt;b&gt;06. Transactional Outbox &amp; Event Bus&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+      &lt;img src=&quot;./assets/diagrams/06-transactional-outbox.png&quot; alt=&quot;Diagram 06&quot; width=&quot;100%&quot; /&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=&quot;50%&quot; align=&quot;center&quot;&gt;
+      &lt;b&gt;07. GPU-Accelerated SAM Annotation Pipeline&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+      &lt;img src=&quot;./assets/diagrams/07-sam-annotation.png&quot; alt=&quot;Diagram 07&quot; width=&quot;100%&quot; /&gt;
+    &lt;/td&gt;
+    &lt;td width=&quot;50%&quot; align=&quot;center&quot;&gt;
+      &lt;b&gt;08. Multi-Tenant K8s Cluster &amp; Ingress&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+      &lt;img src=&quot;./assets/diagrams/08-k8s-cluster.png&quot; alt=&quot;Diagram 08&quot; width=&quot;100%&quot; /&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=&quot;50%&quot; align=&quot;center&quot;&gt;
+      &lt;b&gt;09. Distributed Licensing &amp; Auth Engine&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+      &lt;img src=&quot;./assets/diagrams/09-licensing-system.png&quot; alt=&quot;Diagram 09&quot; width=&quot;100%&quot; /&gt;
+    &lt;/td&gt;
+    &lt;td width=&quot;50%&quot; align=&quot;center&quot;&gt;
+      &lt;b&gt;10. Sandboxed Docker Code Execution&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+      &lt;img src=&quot;./assets/diagrams/10-sandboxed-compiler.png&quot; alt=&quot;Diagram 10&quot; width=&quot;100%&quot; /&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td width=&quot;50%&quot; align=&quot;center&quot;&gt;
+      &lt;b&gt;11. 3-Tier Facial Recognition Pipeline&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+      &lt;img src=&quot;./assets/diagrams/11-facial-recognition.png&quot; alt=&quot;Diagram 11&quot; width=&quot;100%&quot; /&gt;
+    &lt;/td&gt;
+    &lt;td width=&quot;50%&quot; align=&quot;center&quot;&gt;
+      &lt;b&gt;12. Terraform IaC Multi-Env Provisioning&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+      &lt;img src=&quot;./assets/diagrams/12-terraform-iac.png&quot; alt=&quot;Diagram 12&quot; width=&quot;100%&quot; /&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td colspan=&quot;2&quot; align=&quot;center&quot;&gt;
+      &lt;b&gt;13. End-to-End Automated DevSecOps &amp; Observability Mesh&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+      &lt;img src=&quot;./assets/diagrams/13-devsecops-mesh.png&quot; alt=&quot;Diagram 13&quot; width=&quot;60%&quot; /&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
 
-</details>
+&lt;/details&gt;
+
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;Click to expand Edge AI &amp; Computer Vision Flows (7 Portfolio Systems)&lt;/b&gt;&lt;/summary&gt;
+<br>
+
+**01. GPU Annotation Tool (SAM Microservice)** · [For more details, visit portfolio →](https://bilal-talha.vercel.app/work/annotate)
+```mermaid
+flowchart LR
+  A["Raw Images"] --> B["GPU Microservice (SAM + PyTorch)"] --> C["Annotation UI (Review & Refine)"] --> D["Training Dataset"]
+```
+
+**02. Production Inference System (Live Inspection)** · [For more details, visit portfolio →](https://www.google.com/search?q=https://bilal-talha.vercel.app/work/inference)
+```mermaid
+flowchart LR
+  A["ONNX Model"] --> B["Pipeline Convert"] --> C["Camera Calibration"] --> D["Edge Inference (TensorRT / PyCUDA)"]
+  E["Factory Cameras"] --> D
+  D --> F["PostgreSQL"]
+  D --> G["Mounted Volume"]
+  D --> H["MQTT Broker"]
+```
+
+**03. AI Pipelines Bridge (Full-Stack Integration)** · [For more details, visit portfolio →](https://bilal-talha.vercel.app/work/pipeline)
+```mermaid
+flowchart LR
+  A["Web UI (Next.js)"] --> B["Backend API (Django REST)"] --> C["Bridge Layer"] --> D["AI Pipelines (PyTorch / ONNX)"] --> E["Workflow Results"]
+```
+
+**04. Restricted Area Alert System (NVIDIA Ctrl-X)** · [For more details, visit portfolio →](https://bilal-talha.vercel.app/work/zone)
+```mermaid
+flowchart LR
+  A["Converted ONNX"] --> B["IP Camera Feed"] --> C["ROI Zone Config"] --> D["GPU Person Detection"] --> E["Alarm & Event Log"]
+```
+
+**05. Radar Image Inspection (Hailo Accelerator)** · [For more details, visit portfolio →](https://bilal-talha.vercel.app/work/radar)
+```mermaid
+flowchart LR
+  A[".HAR Model"] --> B[".HEF Compiled Model"] --> C["Radar Image Input"] --> D["Hailo Edge Accelerator"] --> E["Pass/Fail Verdict & Log"]
+```
+
+**06. Shared Licensing System (Ctrl-X Apps)** · [For more details, visit portfolio →](https://www.google.com/search?q=https://bilal-talha.vercel.app/work/license)
+```mermaid
+flowchart LR
+  A["Issue License Key"] --> B["App Activation"] --> C["REST Validation"] --> D["Active State"]
+  C --> E["Expired -> Deactivate & Block"]
+```
+
+**07. On-Prem CI/CD & Kubernetes Delivery** · [For more details, visit portfolio →](https://bilal-talha.vercel.app/work/onprem)
+```mermaid
+flowchart LR
+  A["Git Push + Unit Tests"] --> B["GitHub Actions CI/CD"] --> C["Docker Image"] --> D["Kubernetes (kubectl)"]
+  C --> E["On-Prem Ctrl-X Devices"]
+```
+
+&lt;/details&gt;
+
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;Click to expand Cloud Migration, Zero-Trust &amp; Enterprise Flows (7 Portfolio Systems)&lt;/b&gt;&lt;/summary&gt;
+<br>
+
+**08. AWS to On-Prem Migration** · [For more details, visit portfolio →](https://bilal-talha.vercel.app/work/migration)
+```mermaid
+flowchart LR
+  A["AWS (ECS, ECR, ALB, ACM, S3)"] --> B["Workload & UAT Migration"] --> C["On-Prem Ubuntu VMs (Docker)"]
+```
+
+**09. Zero-Trust Publishing (Cloudflare Tunnel)** · [For more details, visit portfolio →](https://www.google.com/search?q=https://bilal-talha.vercel.app/work/tunnel)
+```mermaid
+flowchart LR
+  A["4 On-Prem VM Apps"] --> B["Outbound Cloudflare Tunnel (0 Open Ports)"] --> C["Cloudflare Zero Trust + DNS/TLS"] --> D["Authorized Users"]
+```
+
+**10. Multi-Environment CI/CD Pipelines** · [For more details, visit portfolio →](https://bilal-talha.vercel.app/work/cicd)
+```mermaid
+flowchart LR
+  A["Git Push"] --> B["GitHub Actions / Jenkins"] --> C["Dev (On-Prem)"] --> D["UAT (On-Prem)"] --> E["Production (AWS + Terraform)"]
+```
+
+**11. Customer Portal & Ticket Automation** · [For more details, visit portfolio →](https://bilal-talha.vercel.app/work/portal)
+```mermaid
+flowchart LR
+  A["Customer Portal (React)"] --> B["Ticketing API (Django + PostgreSQL)"] --> C["Internal Queue"] --> D["Lark Suite Automation"] --> E["Client Resolution"]
+```
+
+**12. Corporate Web Platform & Careers** · [For more details, visit portfolio →](https://bilal-talha.vercel.app/work/site)
+```mermaid
+flowchart LR
+  A["Public Visitor"] --> B["Corporate Frontend (React)"] --> C["Integrated Careers Backend (Django)"] --> D["Candidate Pipeline"]
+```
+
+**13. SQ Secure (Exposure Scanner)** · [For more details, visit portfolio →](https://bilal-talha.vercel.app/work/sqsecure)
+```mermaid
+flowchart LR
+  A["Email / Identity Input"] --> B["Security Scanner & Web Crawlers"] --> C["Multi-Source OSINT"] --> D["Exposure Report"]
+```
+
+**14. DigitalOcean Architecture & Security Assessment** · [For more details, visit portfolio →](https://bilal-talha.vercel.app/work/digitalocean)
+```mermaid
+flowchart LR
+  A["Security Audit (8 Findings)"] --> B["Architecture Options (Droplet Pool / DOKS / App Platform)"] --> C["Comparative Evaluation"] --> D["Target Blueprint"]
+```
+
+&lt;/details&gt;
+
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;Click to expand Personal &amp; Academic System Flows (3 Portfolio Systems)&lt;/b&gt;&lt;/summary&gt;
+<br>
+
+**15. Online Compiler (Sandboxed Execution)** · [For more details, visit portfolio →](https://bilal-talha.vercel.app/work/compiler)
+```mermaid
+flowchart LR
+  A["React Editor (Python / C++)"] --> B["Node.js / Express API"] --> C["Isolated Docker Sandbox"] --> D["Execution Output"]
+```
+
+**16. Blog Platform (MERN Stack)** · [For more details, visit portfolio →](https://bilal-talha.vercel.app/work/blog)
+```mermaid
+flowchart LR
+  A["React SPA"] --> B["Express / Node.js (Auth, Posts, Likes, Comments)"] --> C["MongoDB"]
+```
+
+**17. Smart Entry Management (3-Tier FYP)** · [For more details, visit portfolio →](https://bilal-talha.vercel.app/work/fyp) · [GitHub Repo](https://github.com/bilal-talha-dev/smart-entry-system)
+```mermaid
+flowchart LR
+  A["Tier 1: Next.js UI"] --> B["Tier 2: Flask Facial Recognition"] --> C["Tier 3: Attendance Data"]
+```
+
+&lt;/details&gt;
