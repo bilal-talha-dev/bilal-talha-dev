@@ -84,3 +84,47 @@ Mustafa Town, Lahore · [Portfolio](https://bilal-talha.vercel.app/) · [LinkedI
 <div align="left">
   <img src="https://streak-stats.demolab.com?user=bilal-talha-dev&theme=transparent&hide_border=true&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak" />
 </div>
+
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Zero-Trust+Cloud-to-On-Prem+Migrations;Edge-AI+Pipelines+on+NVIDIA+%26+Hailo+Hardware;Deterministic+CI%2FCD+%26+Infrastructure+as+Code;No+Open+Ports+%C2%B7+No+Manual+Bottlenecks" alt="Typing SVG" />
+  </a>
+</p>
+
+
+<div align="center">
+  <img src="https://github-readme-terminal.vercel.app/api?username=bilal-talha-dev&theme=tokyo_night&commands=whoami,uptime,kubectl%20get%20nodes" alt="Terminal" />
+</div>
+
+
+
+### Production Architecture Blueprint
+
+```mermaid
+flowchart LR
+    Internet((Internet)) -->|Zero-Trust TLS| CF[Cloudflare Tunnel]
+    CF -->|No Open Ports| K8s[On-Prem Ubuntu / K8s Cluster]
+    K8s --> App1[FastAPI / Django Services]
+    K8s --> DB[(PostgreSQL + pgvector)]
+    Edge[NVIDIA / Hailo Edge Nodes] -->|MQTT Telemetry| K8s
+    GHA[GitHub Actions + SentinelGate] -->|Deterministic Deploy| K8s
+```
+
+
+<p align="center">
+  <a href="https://bilal-talha.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=38BDF8" /></a>
+  <a href="https://linkedin.com/in/muhammad-bilal-talha-225543246"><img src="https://img.shields.io/badge/LinkedIn-0F172A?style=for-the-badge&logo=linkedin&logoColor=38BDF8" /></a>
+  <a href="https://instagram.com/bilal.talha__"><img src="https://img.shields.io/badge/Instagram-0F172A?style=for-the-badge&logo=instagram&logoColor=38BDF8" /></a>
+  <a href="mailto:bilalsaeed000095@gmail.com"><img src="https://img.shields.io/badge/Email-0F172A?style=for-the-badge&logo=gmail&logoColor=38BDF8" /></a>
+</p>
+
+
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=bilal-talha-dev&theme=transparent&hide_border=true&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&dates=94A3B8&sideLabels=CBD5E1" alt="GitHub Streak" />
+  <br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bilal-talha-dev&bg_color=00000000&color=94A3B8&line=38BDF8&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph" />
+</div>
+
+
